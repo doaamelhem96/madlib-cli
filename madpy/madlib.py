@@ -3,14 +3,15 @@ import re
 
 def intro():
     print(
-        "Welcome to the Madlib program! This is an interactive game where you will provide various words to fill in the blanks of a pre-written story. The program will prompt you to enter specific types of words, such as nouns, verbs, and adjectives, which will then be inserted into the story to create a unique and silly Madlib."
+        ''' Welcome to the **Madlib** Game! here you can fill a gaps ___ by using multi-typs of words: verbs,nouns, and adjectives to create a wone story.,, 
+        let us try it *_^ '''
     )
 
 
 def prompts(lst):
     input_arr = []
     for element in lst:
-        user_input = input(f"enter a {element}")
+        user_input = input(f" enter a {element} :\t ")
         input_arr.append(user_input)
     return input_arr
 
