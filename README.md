@@ -1,7 +1,8 @@
 # madlib-cli
 ## **LAB - Class 03**
 **Project: madlib-cli**
-      Author: Dua'a Melhem.
+
+    Author: Dua'a Melhem.
 
 ****
 ## Setup .env requirements
