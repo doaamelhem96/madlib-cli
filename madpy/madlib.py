@@ -59,7 +59,11 @@ def new_file(merged_template):
     with open("../assests/new-file.txt", "w") as f:
         f.write(merged_template)
 
-
+'''
+execute a workflow where a template file is :
+read, parsed, merged with user prompts,
+ and then written to a new file.
+'''
 if __name__ == "__main__":
     intro()
     returned_content = read_template("../assests/example.txt")
