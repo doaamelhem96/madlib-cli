@@ -18,7 +18,7 @@
 *****
 ## Tests:
 ### How do you run tests?:
-   pytest tests/test-lib.py 
+   pytest test-lib.py 
 
 
 
