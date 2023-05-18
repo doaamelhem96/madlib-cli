@@ -1,9 +1,8 @@
 import pytest
 from madpy.madlib import read_template, parse_template, merge
 
-
 def test_read_template_returns_stripped_string():
-    actual = read_template("../assests/file.txt")
+    actual = read_template("assests/dark_and_stormy_night_template.txt")
     expected = "It was a {Adjective} and {Adjective} {Noun}."
     assert actual == expected
 
